@@ -20,10 +20,10 @@ playable Sudoku game on CPAN.
 
 **Playing**
 
-<pm::Games::Sudoku::CLI>. Since it's CLI (prompt-based) instead of TUI, it's not
+<pm:Games::Sudoku::CLI>. Since it's CLI (prompt-based) instead of TUI, it's not
 really convenient to play unless you're a CLI freak.
 
-<pm::Games::Sudoku::Component::TkPlayer>. It's GUI and barely playable, but
+<pm:Games::Sudoku::Component::TkPlayer>. It's GUI and barely playable, but
 clunky and not pretty. There's no visual indicator for separating the larger 3x3
 boxes.
 
