@@ -67,7 +67,6 @@ _
 our $LIST = {
     summary => 'Sudoku-related modules on CPAN',
     description => $text,
-    tags => ['task'],
 };
 
 Acme::CPANModulesUtil::Misc::populate_entries_from_module_links_in_description;
