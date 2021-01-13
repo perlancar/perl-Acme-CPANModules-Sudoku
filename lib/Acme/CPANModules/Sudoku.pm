@@ -14,11 +14,16 @@ Recently (Dec 2020) I picked up more interest in Sudoku, as I was spending more
 time at home with the kids, and there was a book of Sudoku puzzles lying around
 in the room.
 
-There are certainly more modules on CPAN for solving Sudoku puzzles compared to
-modules/scripts that let you play Sudoku. Basically, I find that there's no good
-playable Sudoku game on CPAN.
-
 **Playing**
+
+There are certainly more modules on CPAN for solving Sudoku puzzles compared to
+for playing. And between the two available modules, I find that there's no good
+playable Sudoku game on CPAN. You'd be better off opening your browser and visit
+<https://websudoku.com> or <https://sudoku.com>. Sad but true. Not the case for
+all games though. I did enjoy *Games::FrozenBubble* and still play *Games::2048*
+from time to time.
+
+These modules are for playing Sudoku:
 
 <pm:Games::Sudoku::CLI>. Since it's CLI (prompt-based) instead of TUI, it's not
 really convenient to play unless you're a CLI freak.
@@ -31,14 +36,14 @@ boxes.
 **Generating**
 
 These modules can generate Sudoku puzzles for you, though not let you
-interactively play/solve them.
+interactively play/solve them:
 
 <pm:Spreadsheet::HTML::Presets::Sudoku>
 
 
 **Solving**
 
-There's no shortage of modules written to solve Sudoku puzzles. I plan to
+There is no shortage of modules written to solve Sudoku puzzles. I plan to
 benchmark these but for now here's the list:
 
 <pm:Games::Sudoku::Lite>
