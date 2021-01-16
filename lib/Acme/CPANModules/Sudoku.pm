@@ -17,20 +17,22 @@ in the room.
 **Playing**
 
 There are certainly more modules on CPAN for solving Sudoku puzzles compared to
-for playing. And between the two available modules, I find that there's no good
-playable Sudoku game on CPAN. You'd be better off opening your browser and visit
-<https://websudoku.com> or <https://sudoku.com>. Sad but true. Not the case for
-all games though. I did enjoy *Games::FrozenBubble* and still play *Games::2048*
-from time to time.
+for playing. And between the two available modules for playing, I find that
+there's currently no good playable Sudoku game on CPAN. Sad but true. You'd be
+better off opening your browser and visiting <https://websudoku.com> or
+<https://sudoku.com>, or installing *ksudoku* or *gnome-sudoku* if you're using
+KDE/GNOME.
 
-These modules are for playing Sudoku:
+(CPAN does still contain some playable games though. I did enjoy
+*Games::FrozenBubble* and still play *Games::2048* from time to time.)
+
+These modules are available for playing Sudoku:
 
 <pm:Games::Sudoku::CLI>. Since it's CLI (prompt-based) instead of TUI, it's not
 really convenient to play unless you're a CLI freak.
 
-<pm:Games::Sudoku::Component::TkPlayer>. It's GUI and barely playable, but
-clunky and not pretty. There's no visual indicator for separating the larger 3x3
-boxes.
+<pm:Games::Sudoku::Component::TkPlayer>. It's GUI, but clunky and not pretty.
+There's no visual indicator for separating the larger 3x3 boxes.
 
 
 **Generating**
